@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-color: #F2F2F2;
+    padding: 80px 5vw;
+}
+.container{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+.container div{
+    padding: 50px;
+}
+
+.first{
+    background-color: #E28525;
+    border-radius: 15px 15px 0 0;
+    width: 223px;
+    height: 335px;
+
+}
+.first h1{
+    margin: 20px 0;
+}
+.first p{
+    line-height: 25px;
+}
+.first button{
+    color: #E28525;
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 120px;
+    margin: 20px 0 0 0;
+    padding: 15px 0;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.first button:hover{
+    background-color: #E28525;
+    color: white;
+}
+.second{
+    background-color: #016972;
+    max-width: 223px;
+    height: 335px;
+}
+.second h1{
+    margin: 20px 0;
+}
+.second p{
+    line-height: 25px;
+}
+.second button{
+    color: #016972;
+    background-color: white;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding: 15px 0;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.second button:hover{
+    background-color: #016972;
+    color: white;
+}
+.third{
+    background-color: #00403F;
+    border-radius: 0 0 15px 15px;
+    max-width: 223px;
+    height: 335px;
+}
+.third h1{
+    margin: 20px 0;
+}
+.third p{
+    line-height: 25px;
+}
+.third button{
+    color: #00403F;
+    background-color: white;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding: 15px 0;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.third button:hover{
+    background-color: #00403F;
+    color: white;
+}
+@media(min-width:764px){
+    body{
+        padding: 140px 13vw;
+    }
+    .first{
+        border-radius: 15px 0 0 15px;
+    }
+    .third{
+        border-radius: 0 15px 15px 0;
+    }
+}
